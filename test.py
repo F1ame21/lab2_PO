@@ -12,8 +12,8 @@ class TestCalculator(TestCase):
         self.assertEqual(calculator(10, 5, '/'), 2)
 #   def test_divide(self):
 #       self.assertEqual(calculator(a, 5, '/'), 2)
-    def test_divide(self):
-        self.assertEqual(calculator(7, 0, '/'), 0)
+#    def test_divide(self):
+#        self.assertEqual(calculator(7, 0, '/'), 0)
 
 
 if __name__ == '__main__':
