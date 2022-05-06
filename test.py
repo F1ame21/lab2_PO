@@ -2,6 +2,11 @@ from unittest import TestCase, main
 from calculator import calculator
 
 class TestCalculator(TestCase):
+    """
+    Unittest
+    ===============
+    Unittest для проверки корректности calculator module.
+    """
     def test_plus(self):
         self.assertEqual(calculator(2, 2, '+'), 4)
     def test_minus(self):
